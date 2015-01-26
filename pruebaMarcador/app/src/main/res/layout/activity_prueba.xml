@@ -1,0 +1,571 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.ruben.pruebamarcador.prueba"
+    android:background="@drawable/fondo2"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="0.16"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tableRow"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Puntos"
+                android:id="@+id/textView" />
+
+            <EditText
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editTextPuntos"
+                android:textSize="7.2pt"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="T2"
+                android:id="@+id/textView3"
+                android:paddingLeft="20dp" />
+
+            <EditText
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="7.2pt"
+                android:id="@+id/editTextT2"
+                android:text="00/00" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="T3"
+                android:id="@+id/textView4"
+                android:paddingLeft="0dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="7.2pt"
+                android:id="@+id/editTextT3"
+                android:text="00/00" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="TL"
+                android:id="@+id/textView5"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="7.2pt"
+                android:id="@+id/editTextTL"
+                android:text="0/0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Reb"
+                android:id="@+id/textView6"
+                android:layout_marginLeft="5dp" />
+
+            <EditText
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="7.2pt"
+                android:id="@+id/editTextRebotes"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Asist"
+                android:id="@+id/textView7"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="7.2pt"
+                android:id="@+id/editTextAsistencias"
+                android:text="0"
+                android:layout_marginLeft="4dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Tap"
+                android:id="@+id/textView8"
+                android:paddingLeft="8dp" />
+
+            <EditText
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="7.2pt"
+                android:id="@+id/editTextTapones"
+                android:text="0"
+                android:layout_gravity="top"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Rec"
+                android:id="@+id/textView9"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="7.2pt"
+                android:id="@+id/editTextRecuperaciones"
+                android:text="0"
+                android:layout_marginLeft="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Per"
+                android:id="@+id/textView10"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="7.2pt"
+                android:id="@+id/editTextPerdidas"
+                android:text="0"
+                android:layout_marginLeft="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Falt"
+                android:id="@+id/textVie11"
+                android:layout_marginLeft="0dp" />
+
+            <EditText
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="7.2pt"
+                android:id="@+id/editTextFaltas"
+                android:text="0"
+                android:layout_marginLeft="2dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Falt Rec"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="0dp" />
+
+            <EditText
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="7.2pt"
+                android:id="@+id/editTextFaltasRecibidas"
+                android:text="0"
+                android:layout_marginLeft="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Val"
+                android:id="@+id/textView13"
+                android:paddingLeft="15dp" />
+
+            <EditText
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="7.2pt"
+                android:id="@+id/editTextValoracion"
+                android:text="0"
+                android:layout_marginLeft="12dp" />
+
+        </LinearLayout>
+    </TableRow>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2P"
+        android:id="@+id/button2P"
+        android:paddingLeft="5dp"
+        android:background="#ff30ff48"
+        android:layout_above="@+id/button2PFallado"
+        android:layout_alignLeft="@+id/button2PFallado"
+        android:layout_alignStart="@+id/button2PFallado"
+        android:layout_alignRight="@+id/button2PFallado"
+        android:layout_alignEnd="@+id/button2PFallado" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2P"
+        android:id="@+id/button2PFallado"
+        android:background="#ffff150b"
+        android:layout_above="@+id/tableRow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3P"
+        android:background="#ff30ff48"
+        android:id="@+id/button3P"
+        android:layout_alignTop="@+id/button2P"
+        android:layout_toRightOf="@+id/button2P"
+        android:layout_toEndOf="@+id/button2P"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3P"
+        android:background="#ffff150b"
+        android:id="@+id/button3PFallado"
+        android:layout_below="@+id/button3P"
+        android:layout_alignLeft="@+id/button3P"
+        android:layout_alignStart="@+id/button3P"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TL"
+        android:background="#ff30ff48"
+        android:id="@+id/buttonTL"
+        android:layout_toEndOf="@+id/button3P"
+        android:layout_above="@+id/button3PFallado"
+        android:layout_toRightOf="@+id/button3P"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TL"
+        android:background="#ffff150b"
+        android:id="@+id/buttonTLFallado"
+        android:layout_toEndOf="@+id/button3PFallado"
+        android:layout_above="@+id/tableRow"
+        android:layout_toRightOf="@+id/button3PFallado"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REB"
+        android:id="@+id/buttonRebote"
+        android:layout_above="@+id/button3PFallado"
+        android:layout_toRightOf="@+id/buttonTL"
+        android:layout_toEndOf="@+id/buttonTL"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASI"
+        android:id="@+id/buttonAsistencia"
+        android:layout_alignTop="@+id/buttonTLFallado"
+        android:layout_alignRight="@+id/buttonRebote"
+        android:layout_alignEnd="@+id/buttonRebote"
+        android:layout_alignLeft="@+id/buttonRebote"
+        android:layout_alignStart="@+id/buttonRebote" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAP"
+        android:id="@+id/buttonTapon"
+        android:layout_alignTop="@+id/buttonRebote"
+        android:layout_toRightOf="@+id/buttonRebote"
+        android:layout_toEndOf="@+id/buttonRebote" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REC"
+        android:id="@+id/buttonRec"
+        android:layout_alignTop="@+id/buttonAsistencia"
+        android:layout_toRightOf="@+id/buttonAsistencia"
+        android:layout_toEndOf="@+id/buttonAsistencia" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FALTA"
+        android:id="@+id/buttonFalta"
+        android:layout_above="@+id/button3PFallado"
+        android:layout_toRightOf="@+id/buttonTapon"
+        android:layout_toEndOf="@+id/buttonTapon" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FALTA REC"
+        android:id="@+id/buttonFaltaRec"
+        android:layout_alignTop="@+id/buttonRec"
+        android:layout_alignLeft="@+id/buttonFalta"
+        android:layout_alignStart="@+id/buttonFalta"
+        android:layout_alignRight="@+id/buttonFalta"
+        android:layout_alignEnd="@+id/buttonFalta" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PER"
+        android:id="@+id/buttonPerd"
+        android:layout_toEndOf="@+id/buttonFalta"
+        android:layout_above="@+id/button3PFallado"
+        android:layout_toRightOf="@+id/buttonFalta" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@+id/buttonPerd"
+        android:layout_toEndOf="@+id/buttonPerd"
+        android:layout_alignBottom="@+id/buttonRec"
+        android:layout_alignTop="@+id/buttonPerd"
+        android:id="@+id/rg">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sergio"
+            android:id="@+id/radioButtonSergio"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fallo"
+            android:id="@+id/radioButtonFallo"
+            android:checked="false" />
+    </RadioGroup>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BORR"
+        android:id="@+id/buttonBorrar"
+        android:layout_alignTop="@+id/buttonRec"
+        android:layout_toEndOf="@+id/buttonRec"
+        android:layout_alignLeft="@+id/buttonPerd"
+        android:layout_alignStart="@+id/buttonPerd"
+        android:layout_toLeftOf="@+id/rg"
+        android:layout_toStartOf="@+id/rg"
+        android:layout_alignBottom="@+id/buttonFaltaRec"
+        android:background="#fffbff4f" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="S.D.El Pilar"
+        android:id="@+id/textViewElPilar"
+        android:layout_alignBottom="@+id/editTextElPilar"
+        android:layout_toRightOf="@+id/button2P"
+        android:layout_marginLeft="-10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextElPilar"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textViewElPilar"
+        android:layout_toEndOf="@+id/textViewElPilar"
+        android:layout_toStartOf="@+id/buttonRebote"
+        android:text="0"
+        android:paddingLeft="10dp"
+        android:layout_alignRight="@+id/buttonTL"
+        android:layout_alignEnd="@+id/buttonTL" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextVisitante"
+        android:text="0"
+        android:paddingLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textViewVis"
+        android:layout_toStartOf="@+id/textViewVis"
+        android:layout_toRightOf="@+id/buttonTL"
+        android:layout_toEndOf="@+id/buttonTL" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Visitante"
+        android:id="@+id/textViewVis"
+        android:layout_alignTop="@+id/textViewElPilar"
+        android:layout_toRightOf="@+id/buttonRebote"
+        android:layout_toEndOf="@+id/buttonRebote" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/buttonSumarPilar"
+        android:layout_alignBottom="@+id/textViewElPilar"
+        android:layout_alignLeft="@+id/button2P"
+        android:layout_alignStart="@+id/button2P" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/buttonSumaVisitante"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textViewVis"
+        android:layout_toEndOf="@+id/textViewVis"
+        android:layout_marginLeft="10dp" />
+
+</RelativeLayout>
